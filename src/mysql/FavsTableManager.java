@@ -33,7 +33,7 @@ public class FavsTableManager {
 		ResultSet rS = dMetaData.getTables(null, null, "favs", null);
 		if (!rS.first()) {
 			bl = true;
-			System.out.println("我到了");
+		//	System.out.println("我到了");
 		}
 		return bl;
 	}
